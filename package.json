@@ -1,7 +1,11 @@
 {
-  "name": "react-avancado-boilerplate",
-  "version": "1.0.0",
+  "name": "voliveira-dev-frontend",
+  "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "voliveira"
+  },
+  "description": "A Next application",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -57,5 +61,10 @@
     "storybook-addon-next-router": "^3.0.8",
     "typescript": "^4.5.5",
     "webpack": "5.68.0"
-  }
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
 }
